@@ -19,7 +19,7 @@ Responsável:
 # 1. O tesoureiro acessa a edição de uma conta a pagar ou cobrança que já possui parcelas "Atrasadas" e parcelas "Pagas".
 # 2. O tesoureiro insere uma nova taxa de juros válida (ex: alterando de 2% para 4%), confirma o tipo de juros (simples ou composto) e clica em "Salvar".
 # 3. O sistema valida que a taxa está dentro dos limites permitidos. [RN1]
-# 4. O sistema recalcula o "Valor Atualizado" das parcelas "Atrasadas", aplicando a nova configuração de juros retroativamente. [RN2]
+# 4. O sistema recalcula o "Valor Atualizado" das parcelas "Atrasadas", aplicando a nova configuração de juros. [RN2]
 # 5. O sistema mantém congelado o "Valor Atualizado" das parcelas "Pagas", ignorando a nova taxa para elas. [RN2]
 # 6. O sistema preserva o "Valor Original" inalterado para todas as parcelas (atrasadas e pagas). [RN3]
 # 7. O sistema salva as alterações, exibe mensagem de sucesso e atualiza as listagens e detalhes.
